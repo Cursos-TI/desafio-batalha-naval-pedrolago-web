@@ -10,7 +10,10 @@ void exibirTabuleiro(int tabuleiro[TAM_TABULEIRO][TAM_TABULEIRO]);
 
 int main() {
 
+    int tabuleiro[TAM_TABULEIRO][TAM_TABULEIRO];
 
-    
+    inicializarTabuleiro(tabuleiro);
+
+    printf("Posicionando navios...\n");
     return 0;
 }
