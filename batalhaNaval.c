@@ -274,7 +274,7 @@ void criarHabilidadeCone(int habilidade[TAM_HABILIDADE][TAM_HABILIDADE]) {
 /**
  * @param habilidade Matriz 5x5 para armazenar o padrão da cruz
  */
-void criarHabilidadeCruz(int habilidade[TAM_HABILIDADE][TAM_HABILIDADE]) {
+void criarHabilidadeCruz(int habilidade[TAM_HABILIDADE][TAM_HABILIDADE]) {;
 
     for (int i = 0; i < TAM_HABILIDADE; i++) {
         for (int j = 0; j < TAM_HABILIDADE; j++) {
